@@ -9,8 +9,8 @@ contract("SimpleSmartContract", () => {
     const simpleSmartContract = await SimpleSmartContract.deployed();
     // deployed() no despliega el contrato, simplemente retorna un objecto
     // que apunta a un contrato que ya está desplegado
-    console.log(simpleSmartContract.address);
-    // Verifiquemos que la direccio'n no esta' vaci'a, una direccio0n vaci'a
+    // console.log(simpleSmartContract.address);
+    // Verifiquemos que la direccio'n no esta' vaci'a, una direccio'n vaci'a
     // apunta a un contrato no desplegado
     assert(simpleSmartContract.address !== "");
     // las pruebas se corren con truffle test
